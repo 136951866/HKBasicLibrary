@@ -10,6 +10,8 @@
 #define HKCategoryHeader_h
 
 #import "HKCommonTool.h"
+#import "HKBAlertVC.h"
+#import "HKColorIGradientTool.h"
 
 
 #endif /* HKCategoryHeader_h */
