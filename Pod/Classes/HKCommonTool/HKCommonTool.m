@@ -49,11 +49,7 @@
 
 //打电话
 + (void)showWithTellPhone:(NSString *)Number inView:(UIView *)view{
-    UIWebView *callWebview = [[UIWebView alloc] init];
-    NSString *strPhone = [NSString stringWithFormat:@"tel:%@",Number];
-    NSURL *telURL =[NSURL URLWithString:[strPhone stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
-    [callWebview loadRequest:[NSURLRequest requestWithURL:telURL]];
-    [view addSubview:callWebview];
+
 }
 
 //模态相关
